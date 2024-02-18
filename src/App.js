@@ -9,7 +9,7 @@ function App() {
       <div className='container'>
          
       <Switch>
-      <Form/>
+     
           <Route path={'/form'} element = {<Form/>}/>
         </Switch>
         <button className='btn'>Закрыть страницу</button>

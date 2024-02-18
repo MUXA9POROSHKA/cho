@@ -9,7 +9,7 @@ export const Form =()=>{
   const [city, setCity] = useState('');
   const [subject, setSubject] = useState ('');
 
-  const tg = window.Telegram.WebApp; 
+  const tg = useTelegram(); 
 
   const onSendData = useCallback(()=>{
     const data = {
